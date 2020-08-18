@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/tvParaBirimi"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/kenarlik"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imvParaArtis"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#25DC09" />
+
+    <TextView
+        android:id="@+id/tvParaAlis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#25DC09"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvParaSatis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/kenarlik_sag"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+</LinearLayout>
